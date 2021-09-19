@@ -49,7 +49,7 @@ h1 {
 .btn:hover {
     cursor: pointer;
     color: var(--black);
-    transform: scale(1.05);
+    transform: scale(1.04);
 }
 
 .btn-primary {

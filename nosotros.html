@@ -4,22 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros | Haus Arquitectura</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="nosotros">
-    <header>
-        <label for="toggle" class="hamburger">&#9776</label>
-        <input type="checkbox" id="toggle">
-        <div class="logo-container align-center">
-            <a href="./index.html"><img src="./imgs/hausgrey.png" alt="logo haus" class="logo"></a>            
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#" class="active">Nosotros</a></li>
-                <li><a href="./proyectos.html">Proyectos</a></li>
-                <li><a href="./carreras.html">Carreras</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
+    <header class="g-header">
+        <nav class="navbar navbar-expand-sm fixed-top">
+            <div class="container-fluid">
+                <a href="./index.html" class="navbar-brand mr-auto">
+                    <img src="./imgs/hausgrey.png" alt="logo haus" class="logo">
+                </a>
+               <button 
+                class="navbar-toggler ml-auto" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#Navbar">
+                    &#9776
+                </button>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./proyectos.html" class="nav-link">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./carreras.html" class="nav-link">Carreras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./contacto.html" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -29,32 +47,32 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolorum aperiam ullam neque soluta eius culpa voluptatibus ratione quis distinctio similique quisquam odit est consequuntur, quos totam laborum eum autem, adipisci officiis, consequatur deleniti vitae.</p>
             </div>
             <div class="container container-right">
-                <div class="card">
+                <div class="g-card">
                     <img src="./imgs/staff1.png" alt="foto valerio tolosa" class="card-photo"></img>
                     <h2>Valerio Tolosa</h2>
                     <p class="job">Arquitecto</p>
                 </div>
-                <div class="card">
+                <div class="g-card">
                     <img src="./imgs/staff2.png" alt="foto beatriz seijo" class="card-photo"></img>
                     <h2>Beatriz Seijo</h2>
                     <p class="job">Arquitecta</p>
                 </div>
-                <div class="card">
+                <div class="g-card">
                     <img src="./imgs/staff3.png" alt="foto claudia fraga" class="card-photo"></img>
                     <h2>Claudia Fraga</h2>
                     <p class="job">Arquitecta</p>
                 </div>
-                <div class="card">
+                <div class="g-card">
                     <img src="./imgs/staff4.png" alt="foto luis montilla" class="card-photo"></img>
                     <h2>Luis Montilla</h2>
                     <p class="job">Arquitecto</p>
                 </div>
-                <div class="card">
+                <div class="g-card">
                     <img src="./imgs/staff5.png" alt="foto andrés sarabia" class="card-photo"></img>
                     <h2>Andrés Sarabia</h2>
                     <p class="job">Arquitecto</p>
                 </div>
-                <div class="card">
+                <div class="g-card">
                     <img src="./imgs/staff6.png" alt="foto rocío barrado" class="card-photo"></img>
                     <h2>Rocío Barrado</h2>
                     <p class="job">Arquitecta</p>
@@ -62,12 +80,15 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="g-footer">
         <div class="icons">
-            <p>Tw</p>
-            <p>In</p>
-            <p>Fb</p>            
+            <p class="icon">Tw</p>
+            <p class="icon">In</p>
+            <p class="icon">Fb</p>            
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

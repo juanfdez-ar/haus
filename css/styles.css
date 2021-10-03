@@ -527,7 +527,10 @@ h1 {
 }
 
 /* MEDIA */
-@media (max-width: 500px) {
+@media (max-width: 720px) {
+  html {
+    font-size: 15px;
+  }
   nav {
     display: none;
   }

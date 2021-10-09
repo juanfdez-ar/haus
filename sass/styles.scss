@@ -76,10 +76,14 @@ h1 {
     text-align: right;
 }
 
-@mixin spaced-typography {
+@mixin spaced-typography($grey-color: true) {
     text-transform: uppercase;
     letter-spacing: .125em;
     font-size: .8rem;
+
+    @if $grey-color {
+        color: $dark-grey;
+    }
 }
 
 /* ESTILOS HEADER */
@@ -238,7 +242,7 @@ h1 {
 
     .job {
         color: $dark-grey;
-        @include spaced-typography;
+        @include spaced-typography($grey-color: true);
     }
 }
 
@@ -365,7 +369,7 @@ h1 {
         
         p {
             color: $dark-grey;
-            @include spaced-typography;
+            @include spaced-typography($grey-color: true);
         }
     }
 }
@@ -419,7 +423,7 @@ h1 {
     .label-contact,
     .subtexto-contacto {
         color: $dark-grey;
-        @include spaced-typography;
+        @include spaced-typography($grey-color: true);
     }
     
     .label-contact {

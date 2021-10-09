@@ -280,6 +280,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: .125em;
   font-size: .8rem;
+  color: #666f76;
 }
 
 /* ESTILOS PROYECTOS */
@@ -411,6 +412,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: .125em;
   font-size: .8rem;
+  color: #666f76;
 }
 
 /* ESTILOS CONTACTO */
@@ -486,6 +488,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: .125em;
   font-size: .8rem;
+  color: #666f76;
 }
 
 #contacto .label-contact {

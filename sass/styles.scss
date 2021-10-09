@@ -76,6 +76,12 @@ h1 {
     text-align: right;
 }
 
+@mixin spaced-typography {
+    text-transform: uppercase;
+    letter-spacing: .125em;
+    font-size: .8rem;
+}
+
 /* ESTILOS HEADER */
 
 .g-header {
@@ -232,9 +238,7 @@ h1 {
 
     .job {
         color: $dark-grey;
-        text-transform: uppercase;
-        letter-spacing: .125em;
-        font-size: .8rem;
+        @include spaced-typography;
     }
 }
 
@@ -361,9 +365,7 @@ h1 {
         
         p {
             color: $dark-grey;
-            text-transform: uppercase;
-            letter-spacing: .125em;
-            font-size: .8rem;
+            @include spaced-typography;
         }
     }
 }
@@ -417,9 +419,7 @@ h1 {
     .label-contact,
     .subtexto-contacto {
         color: $dark-grey;
-        text-transform: uppercase;
-        letter-spacing: .125em;
-        font-size: .8rem;
+        @include spaced-typography;
     }
     
     .label-contact {

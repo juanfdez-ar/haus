@@ -45,6 +45,11 @@ h1 {
           transform: scale(1.05);
 }
 
+.btn a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .btn-primary {
   color: #dbdbdb;
   border: 1px solid #dbdbdb;

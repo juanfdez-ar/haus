@@ -29,6 +29,14 @@ h1 {
   line-height: .9em;
 }
 
+a {
+  color: #666f76;
+}
+
+a:hover {
+  color: #dbdbdb;
+}
+
 .btn {
   padding: 10px 25px;
   border-radius: 0;

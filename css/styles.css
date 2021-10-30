@@ -121,7 +121,6 @@ a:hover {
 .navbar-brand {
   width: 9vh;
   height: 100%;
-  border-right: 1px solid #272727;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -217,7 +216,7 @@ a:hover {
 }
 
 #index .container-right {
-  background-image: url(../imgs/background.png);
+  background-image: url(../imgs/building4.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -330,11 +329,11 @@ a:hover {
 }
 
 #proyectos .section-1 .container-right {
-  background-image: url(../imgs/background.png);
+  background-image: url(../imgs/building1.jpg);
 }
 
 #proyectos .section-2 .container-right {
-  background-image: url(../imgs/imgBuilding2.jpg);
+  background-image: url(../imgs/building2.jpg);
 }
 
 #proyectos .section-3 .container-left,
@@ -343,7 +342,7 @@ a:hover {
 }
 
 #proyectos .section-3 .container-right {
-  background-image: url(../imgs/imgBuilding4.jpg);
+  background-image: url(../imgs/building3.jpg);
 }
 
 #proyectos h2 {
@@ -556,6 +555,9 @@ a:hover {
   }
   h1 {
     font-size: 2rem;
+  }
+  .logo {
+    width: 22.5px;
   }
   /* INDEX */
   #index .section-1 {

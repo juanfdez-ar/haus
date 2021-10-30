@@ -122,7 +122,6 @@ a {
     &-brand {
         width: $nav-height;
         height: 100%;
-        border-right: 1px solid $accent;
         display: flex;
         align-items: center;
     }
@@ -195,7 +194,7 @@ a {
         }
 
         &-right {
-            background-image: url(../imgs/background.png);
+            background-image: url(../imgs/building4.jpg);
             background-size: cover;
             background-position: center;
         }
@@ -288,13 +287,13 @@ a {
     
     .section-1 {
         .container-right {
-            background-image: url(../imgs/background.png);
+            background-image: url(../imgs/building1.jpg);
         }
     }
 
     .section-2 {
         .container-right {
-            background-image: url(../imgs/imgBuilding2.jpg);
+            background-image: url(../imgs/building2.jpg);
         }
     }
 
@@ -305,7 +304,7 @@ a {
         }
 
         .container-right {
-            background-image: url(../imgs/imgBuilding4.jpg);
+            background-image: url(../imgs/building3.jpg);
         }
     }
     
@@ -496,6 +495,10 @@ a {
 
     h1 {
         font-size: 2rem;
+    }
+
+    .logo {
+        width: 22.5px;
     }
 
     /* INDEX */
